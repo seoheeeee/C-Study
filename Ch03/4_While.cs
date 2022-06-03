@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ch03
 {
-    internal class Class1
+    internal class _4_While
     {
     }
 }
