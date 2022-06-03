@@ -8,5 +8,14 @@ namespace Book.Ch01
 {
     internal class P83
     {
+        static void Main1(string[] args)
+        {
+
+            Console.WriteLine(int.MaxValue);
+            Console.WriteLine(int.MinValue);
+
+            Console.WriteLine(long.MaxValue);
+            Console.WriteLine(long.MinValue);
+        }
     }
 }
