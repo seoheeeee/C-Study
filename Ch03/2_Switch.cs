@@ -22,6 +22,8 @@ namespace Ch03
 
             switch(grade)
             {
+                
+                
                 case 9:
                     Console.WriteLine("A는 입니다.");
                     break;
