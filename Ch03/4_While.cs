@@ -12,7 +12,7 @@ namespace Ch03
 {
     internal class _4_While
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //1부터 10까지 합 : 조건이 거짓이면 실행되지 않음
             int sum = 0;
@@ -25,6 +25,11 @@ namespace Ch03
             }
 
             Console.WriteLine("1부터 10까지 합 : "+sum);
+
+
+
+
+
 
 
 
