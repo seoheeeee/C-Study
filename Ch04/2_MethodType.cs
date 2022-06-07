@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  */
 namespace Ch04
 {
-    internal class MethodType
+    internal class _2_MethodType
     {
         static void Main1(string[] args)
         {
@@ -39,7 +39,7 @@ namespace Ch04
             return y;
         }
 
-            //T TYPE1 : 매개변수 O, 리턴값 X
+            //T TYPE2 : 매개변수 O, 리턴값 X
             public static void Type2(bool status)
         {
             if (status)
@@ -51,7 +51,7 @@ namespace Ch04
                 Console.WriteLine("거짓 입니다.");
             }
         }
-            //T TYPE1 : 매개변수 X, 리턴값 O
+            //T TYPE3 : 매개변수 X, 리턴값 O
             public static string Type3()
         {
             int n1 = 1, n2 = 2;
@@ -61,7 +61,7 @@ namespace Ch04
             else
                 return "n1은 n2보다 작다.";
         }
-            //T TYPE1 : 매개변수 X, 리턴값 X
+            //T TYPE4 : 매개변수 X, 리턴값 X
             public static void Type4()
         {
             double result = Type1(1.121);

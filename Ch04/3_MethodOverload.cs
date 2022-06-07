@@ -14,7 +14,7 @@ using System.Threading.Tasks;
  */
 namespace Ch04
 {
-    internal class MethodOverload
+    internal class _3_MethodOverload
     {
         static void Main1(string[] args)
         {
@@ -38,11 +38,11 @@ namespace Ch04
         {
             return a + b + c;
         }
-        public static int Plus(double a,double b)
+        public static double Plus(double a,double b)
         {
             return a + b;
         }
-        public static int Plus(string a, string b)
+        public static string Plus(string a, string b)
         {
             return a + b;
         }

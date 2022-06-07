@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  */
 namespace Ch04
 {
-    internal class Method
+    internal class _1_Method
     {
         static void Main1(string[] args)
         {
