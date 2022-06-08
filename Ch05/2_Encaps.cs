@@ -18,7 +18,7 @@ namespace Ch05
     internal class _2_Encaps
     {
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
            
             //객체생성과 초기화(생성자 호출)
