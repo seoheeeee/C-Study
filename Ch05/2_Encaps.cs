@@ -1,4 +1,4 @@
-﻿using Ch05.Sub1;
+﻿using Ch05.Sub2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,21 +20,48 @@ namespace Ch05
 
         static void Main(string[] args)
         {
-            Account kb = new Account();
-            kb.bank = "국민은행";
-            kb.id = "110-11-1234";
-            kb.name = "김유신";
-            kb.balance = 1000;
+           
+            //객체생성과 초기화(생성자 호출)
+            Account kb = new Account("국민은행","110-11-1234","김유신",1000);
+           
 
+            //기능
             kb.Deposit(4000);
             kb.Withdraw(1000);
             kb.Show();
 
-            kb.balance--;
-            kb.balance += 10;
 
-            kb.Show();
+            //캡슐화로 취약코드 예방
+            //kb.balance--;
+            //kb.balance += 10;
+
+
+            //Car 객체 생성과 초기화
+            Car sonata = new Car("흰색", "소나타", 10);
+            Car bmw = new Car("검정색", "BMW", 0);
+            Car benz = new Car("흰색", "벤츠", 0);
+
+
+            //setter 실행
+            sonata.Name = "EF소나타";
+            sonata.Speed = -100;
+            sonata.Color = "빨간색";
+
+            //getter 실행
+            Console.WriteLine("canival 객체 name : "+sonata.Name);
+
+
+            sonata.SpeedUp(50);
+            sonata.SpeedDown(10);
+            sonata.Show();
+
+            bmw.SpeedUp(30);
+            bmw.Show();
+
+            benz.SpeedUp(40);
+            benz.Show();
 
         }
+
     }
 }
