@@ -10,14 +10,16 @@ using System.Threading.Tasks;
  * 이름 : 이서희
  * 내용 : 클래스와 객체ㅐㅐ 실습하기 교재 p203
  * 
- * 
+ * 클래스와 객체
+ * - 클래스는 객체를 생성하는 구조체이며, 필드와 메서드로 구성된다.
+ * -객체는 클래스의 실제 인스턴스이며, new 연산자로 생성한다.
  */
 
 namespace Ch05
 {
     internal class _1_Class
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //객체 생성
             Car sonata = new Car();
