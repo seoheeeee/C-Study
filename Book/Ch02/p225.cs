@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch01
+namespace Book.Ch02
 {
-    internal class P78
+    internal class p225
     {
-        static void Main1(string[] args)
-        {
-
-        }
     }
 }

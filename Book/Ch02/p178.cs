@@ -6,15 +6,7 @@ using System.Threading.Tasks;
 
 namespace Book.Ch01
 {
-    internal class P85
+    internal class P178
     {
-        static void Main1(string[] args)
-        {
-            char a = 'a';
-            Console.WriteLine(a);
-
-
-
-        }
     }
 }

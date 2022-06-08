@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace Book.Ch01
 {
-    internal class P75
+    internal class P167
     {
         static void Main1(string[] args)
         {
-            Console.WriteLine(!true);
-            Console.WriteLine(!false);
-            Console.WriteLine(!(52<273));
-            Console.WriteLine(!(52>273));
+           int output = 0;
+
+            for(int i = 0; i <=100;i++)
+                {
+                output += i;
+            }
+            Console.WriteLine(output);
         }
     }
 }

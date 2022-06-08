@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Book.Ch01
 {
-    internal class P75
+    internal class P162
     {
         static void Main1(string[] args)
         {
-            Console.WriteLine(!true);
-            Console.WriteLine(!false);
-            Console.WriteLine(!(52<273));
-            Console.WriteLine(!(52>273));
+            while (true)
+            {
+                Console.WriteLine("무한반복");
+            }
         }
     }
 }
