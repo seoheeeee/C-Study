@@ -27,6 +27,30 @@ namespace Ch05.Sub2
         private string name;
         private int balance;
 
+       
+        //setter, getter
+        public string Bank { get { return bank; } set { bank = value; } }
+        public string Id { get { return id; } set { id = value; } }
+        public string Name { get { return name; } set { name = value; } }
+        public int Balance
+        {
+            get { return balance; }
+            set
+            {
+                if (value < 0)
+                {
+                    Console.WriteLine("잔액은 0보다 작을 수 없습니다.");
+                    balance = 0;
+                }
+                else { balance = value; }
+            }
+        }
+
+
+
+
+
+        
         //생성자 - 캡슐화된 속성을 초기화 하기 위한 메서드
         public Account(string bank, string id, string name, int balance) 
         { 
@@ -35,6 +59,8 @@ namespace Ch05.Sub2
             this.name = name;   
             this.balance = balance; 
         }
+
+       
 
 
         //기능

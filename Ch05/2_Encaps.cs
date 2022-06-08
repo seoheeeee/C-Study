@@ -23,7 +23,17 @@ namespace Ch05
            
             //객체생성과 초기화(생성자 호출)
             Account kb = new Account("국민은행","110-11-1234","김유신",1000);
-           
+
+
+
+            //setter
+            kb.Balance = -50000;
+            kb.Bank = "새마을은행";
+            kb.Name = "홍길동";
+            //getter
+            Console.WriteLine("은행 이름 : "+kb.Bank);
+
+
 
             //기능
             kb.Deposit(4000);
@@ -37,7 +47,7 @@ namespace Ch05
 
 
             //Car 객체 생성과 초기화
-            Car sonata = new Car("흰색", "소나타", 10);
+            Car sonata = new Car("흰색", "소나타", 0);
             Car bmw = new Car("검정색", "BMW", 0);
             Car benz = new Car("흰색", "벤츠", 0);
 
@@ -48,7 +58,7 @@ namespace Ch05
             sonata.Color = "빨간색";
 
             //getter 실행
-            Console.WriteLine("canival 객체 name : "+sonata.Name);
+            Console.WriteLine("sonata 객체 name : "+sonata.Name);
 
 
             sonata.SpeedUp(50);
