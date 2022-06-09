@@ -48,7 +48,7 @@ namespace Ch05
     }
     internal class _3_static
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Increment inc1 = new Increment();
             Increment inc2 = new Increment();

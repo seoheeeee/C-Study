@@ -16,30 +16,6 @@ namespace Ch05.Sub2
 
 
 
-        //Getter, Setter - C#에서는 프로퍼티
-        public string Name { get{return name;} set {name = value;}}
-        public int Speed { 
-            get
-            {
-                return speed;
-            }
-            set 
-            {
-                if(value < 0)
-                {
-                    Console.WriteLine("speed는 0보다 작을 수 없습니다.");
-                    speed = 0;
-                }
-                else
-                {
-                    speed = value;
-                }
-               
-            }
-        }
-        public string Color { get { return color; } set { color = value; } }
-
-
         //생성자
         public Car(string color, string name, int speed)
         {
@@ -49,12 +25,29 @@ namespace Ch05.Sub2
         }
 
 
-        //소멸자
-        ~Car()
+        //Getter, Setter - C#에서는 프로퍼티
+        public string Name { get { return name; } set { name = value; } }
+        public int Speed
         {
-            Console.WriteLine("{0} Car 소멸자 실행...", name);
-        }
+            get
+            {
+                return speed;
+            }
+            set
+            {
+                if (value < 0)
+                {
+                    Console.WriteLine("speed는 0보다 작을 수 없습니다.");
+                    speed = 0;
+                }
+                else
+                {
+                    speed = value;
+                }
 
+            }
+        }
+        public string Color { get { return color; } set { color = value; } }
 
 
 
