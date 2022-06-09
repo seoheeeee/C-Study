@@ -8,7 +8,7 @@ namespace Book.Ch01
 {
     internal class P176
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             for(int i = 1; i <= 10; i++)
             {
