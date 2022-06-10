@@ -8,7 +8,7 @@ namespace Baekjoon._01단계
 {
     internal class Main1_10
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine(Console.ReadLine() + "??!");
 

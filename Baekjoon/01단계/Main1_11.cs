@@ -8,5 +8,14 @@ namespace Baekjoon._01단계
 {
     internal class Main1_11
     {
+       
+        static void Main1(string[] args)
+        {
+            
+            Console.WriteLine(int.Parse(Console.ReadLine()) - 543);
+
+           
+
+        }
     }
 }
