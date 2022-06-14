@@ -10,13 +10,13 @@ using System.Threading.Tasks;
  * 
  * 
  * 구조체(Structure)
- * - 간단하가ㅔ 객체를 만들때 사용하는 구조 형식
+ * - 간단하게 객체를 만들때 사용하는 구조 형식
  * - 클래스와 동일하지만 몇가지 제한(상속X, 캡슐화X)
  */
 namespace Ch06
 {
     struct MyPoint
-    {
+    {   
         public int x;
         public int y;
 
