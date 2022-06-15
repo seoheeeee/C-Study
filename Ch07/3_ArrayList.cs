@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ch07.Sub1;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,12 +10,15 @@ using System.Threading.Tasks;
  * 이름 : 이서희
  * 내용 : 컬렉션 ArrayList 실습
  * 
+ * ArrayList
+ * - 배열과 유사한 동적 선형 자료구조
+ * - List는 ArrayList를 일반화 시킨 자료구조 ArrayList보다 더 나은 성능
  */
 namespace Ch07
 {
     internal class _3_ArrayList
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //ArraryList 생성
             ArrayList list1 = new ArrayList();
@@ -89,6 +93,22 @@ namespace Ch07
                 Console.Write(n + " ");
             }
             Console.WriteLine();
+
+
+            List<Apple> list5 = new List<Apple>();
+
+            list5.Add(new Apple("한국", 3000));
+            list5.Add(new Apple("미국", 3000));
+            list5.Add(new Apple("일본", 3000));
+
+            Apple a1 = list5[0];
+            a1.show();
+
+            
+            list5[1].show();
+            list5[2].show();
+
+
         }
     }
 }
