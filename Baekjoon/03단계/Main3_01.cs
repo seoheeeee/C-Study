@@ -8,7 +8,7 @@ namespace Baekjoon._03단계
 {
     internal class Main3_01
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
 
 
