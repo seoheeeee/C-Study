@@ -79,5 +79,25 @@ namespace Ch11
             Form2 form2 = new Form2();
             form2.ShowDialog();
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메시지 박스1!><");
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("제목과 내용이 있는 메시지박스", "메시지 박스2! ><");
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("두개의 버튼이 있는 메시지 박스", "메시지 박스3!><", MessageBoxButtons.YesNo);
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("여러버튼이 있는 메시지 박스","메시지 박스4!><",MessageBoxButtons.OKCancel,MessageBoxIcon.Information);
+        }
     }
 }

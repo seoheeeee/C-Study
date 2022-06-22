@@ -63,6 +63,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnForm2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -70,7 +74,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 102);
+            this.label1.Location = new System.Drawing.Point(10, 209);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 15);
             this.label1.TabIndex = 0;
@@ -79,7 +83,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 140);
+            this.label2.Location = new System.Drawing.Point(10, 247);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 15);
             this.label2.TabIndex = 1;
@@ -88,7 +92,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 177);
+            this.label3.Location = new System.Drawing.Point(10, 284);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 15);
             this.label3.TabIndex = 2;
@@ -96,28 +100,28 @@
             // 
             // txtUid
             // 
-            this.txtUid.Location = new System.Drawing.Point(86, 99);
+            this.txtUid.Location = new System.Drawing.Point(84, 206);
             this.txtUid.Name = "txtUid";
             this.txtUid.Size = new System.Drawing.Size(100, 23);
             this.txtUid.TabIndex = 3;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(86, 137);
+            this.txtName.Location = new System.Drawing.Point(84, 244);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 23);
             this.txtName.TabIndex = 4;
             // 
             // txthp
             // 
-            this.txthp.Location = new System.Drawing.Point(86, 174);
+            this.txthp.Location = new System.Drawing.Point(84, 281);
             this.txthp.Name = "txthp";
             this.txthp.Size = new System.Drawing.Size(100, 23);
             this.txthp.TabIndex = 5;
             // 
             // btnUid
             // 
-            this.btnUid.Location = new System.Drawing.Point(205, 99);
+            this.btnUid.Location = new System.Drawing.Point(203, 206);
             this.btnUid.Name = "btnUid";
             this.btnUid.Size = new System.Drawing.Size(75, 23);
             this.btnUid.TabIndex = 6;
@@ -127,7 +131,7 @@
             // 
             // btnName
             // 
-            this.btnName.Location = new System.Drawing.Point(205, 137);
+            this.btnName.Location = new System.Drawing.Point(203, 244);
             this.btnName.Name = "btnName";
             this.btnName.Size = new System.Drawing.Size(75, 23);
             this.btnName.TabIndex = 7;
@@ -137,7 +141,7 @@
             // 
             // btnHp
             // 
-            this.btnHp.Location = new System.Drawing.Point(205, 174);
+            this.btnHp.Location = new System.Drawing.Point(203, 281);
             this.btnHp.Name = "btnHp";
             this.btnHp.Size = new System.Drawing.Size(75, 23);
             this.btnHp.TabIndex = 8;
@@ -148,7 +152,7 @@
             // lbUid
             // 
             this.lbUid.AutoSize = true;
-            this.lbUid.Location = new System.Drawing.Point(298, 103);
+            this.lbUid.Location = new System.Drawing.Point(296, 210);
             this.lbUid.Name = "lbUid";
             this.lbUid.Size = new System.Drawing.Size(42, 15);
             this.lbUid.TabIndex = 9;
@@ -157,7 +161,7 @@
             // lbName
             // 
             this.lbName.AutoSize = true;
-            this.lbName.Location = new System.Drawing.Point(298, 141);
+            this.lbName.Location = new System.Drawing.Point(296, 248);
             this.lbName.Name = "lbName";
             this.lbName.Size = new System.Drawing.Size(42, 15);
             this.lbName.TabIndex = 10;
@@ -166,7 +170,7 @@
             // lbHp
             // 
             this.lbHp.AutoSize = true;
-            this.lbHp.Location = new System.Drawing.Point(298, 178);
+            this.lbHp.Location = new System.Drawing.Point(296, 285);
             this.lbHp.Name = "lbHp";
             this.lbHp.Size = new System.Drawing.Size(42, 15);
             this.lbHp.TabIndex = 11;
@@ -175,7 +179,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 68);
+            this.label7.Location = new System.Drawing.Point(10, 175);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(47, 15);
             this.label7.TabIndex = 12;
@@ -184,7 +188,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 228);
+            this.label4.Location = new System.Drawing.Point(9, 321);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 15);
             this.label4.TabIndex = 13;
@@ -193,7 +197,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 254);
+            this.label5.Location = new System.Drawing.Point(9, 350);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(175, 15);
             this.label5.TabIndex = 14;
@@ -202,7 +206,7 @@
             // chbFruit1
             // 
             this.chbFruit1.AutoSize = true;
-            this.chbFruit1.Location = new System.Drawing.Point(12, 284);
+            this.chbFruit1.Location = new System.Drawing.Point(5, 379);
             this.chbFruit1.Name = "chbFruit1";
             this.chbFruit1.Size = new System.Drawing.Size(50, 19);
             this.chbFruit1.TabIndex = 15;
@@ -212,7 +216,7 @@
             // chbFruit2
             // 
             this.chbFruit2.AutoSize = true;
-            this.chbFruit2.Location = new System.Drawing.Point(68, 284);
+            this.chbFruit2.Location = new System.Drawing.Point(61, 379);
             this.chbFruit2.Name = "chbFruit2";
             this.chbFruit2.Size = new System.Drawing.Size(50, 19);
             this.chbFruit2.TabIndex = 16;
@@ -222,7 +226,7 @@
             // chbFruit3
             // 
             this.chbFruit3.AutoSize = true;
-            this.chbFruit3.Location = new System.Drawing.Point(124, 284);
+            this.chbFruit3.Location = new System.Drawing.Point(117, 379);
             this.chbFruit3.Name = "chbFruit3";
             this.chbFruit3.Size = new System.Drawing.Size(50, 19);
             this.chbFruit3.TabIndex = 17;
@@ -232,7 +236,7 @@
             // chbFruit4
             // 
             this.chbFruit4.AutoSize = true;
-            this.chbFruit4.Location = new System.Drawing.Point(180, 284);
+            this.chbFruit4.Location = new System.Drawing.Point(173, 379);
             this.chbFruit4.Name = "chbFruit4";
             this.chbFruit4.Size = new System.Drawing.Size(50, 19);
             this.chbFruit4.TabIndex = 18;
@@ -242,7 +246,7 @@
             // chbFruit5
             // 
             this.chbFruit5.AutoSize = true;
-            this.chbFruit5.Location = new System.Drawing.Point(236, 284);
+            this.chbFruit5.Location = new System.Drawing.Point(229, 379);
             this.chbFruit5.Name = "chbFruit5";
             this.chbFruit5.Size = new System.Drawing.Size(62, 19);
             this.chbFruit5.TabIndex = 19;
@@ -251,7 +255,7 @@
             // 
             // btnFruit
             // 
-            this.btnFruit.Location = new System.Drawing.Point(298, 281);
+            this.btnFruit.Location = new System.Drawing.Point(291, 376);
             this.btnFruit.Name = "btnFruit";
             this.btnFruit.Size = new System.Drawing.Size(75, 23);
             this.btnFruit.TabIndex = 20;
@@ -262,7 +266,7 @@
             // lbResultFruit
             // 
             this.lbResultFruit.AutoSize = true;
-            this.lbResultFruit.Location = new System.Drawing.Point(12, 322);
+            this.lbResultFruit.Location = new System.Drawing.Point(9, 411);
             this.lbResultFruit.Name = "lbResultFruit";
             this.lbResultFruit.Size = new System.Drawing.Size(82, 15);
             this.lbResultFruit.TabIndex = 21;
@@ -378,7 +382,7 @@
             this.groupBox1.Controls.Add(this.rbtnMen);
             this.groupBox1.Controls.Add(this.btnPerson);
             this.groupBox1.Controls.Add(this.lbPerson);
-            this.groupBox1.Location = new System.Drawing.Point(12, 355);
+            this.groupBox1.Location = new System.Drawing.Point(12, 460);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(361, 71);
             this.groupBox1.TabIndex = 32;
@@ -393,7 +397,7 @@
             this.groupBox2.Controls.Add(this.btnGrage);
             this.groupBox2.Controls.Add(this.rbtnGrage2);
             this.groupBox2.Controls.Add(this.rbtnGrage3);
-            this.groupBox2.Location = new System.Drawing.Point(12, 441);
+            this.groupBox2.Location = new System.Drawing.Point(12, 555);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(538, 75);
             this.groupBox2.TabIndex = 33;
@@ -402,7 +406,7 @@
             // 
             // btnForm2
             // 
-            this.btnForm2.Location = new System.Drawing.Point(33, 528);
+            this.btnForm2.Location = new System.Drawing.Point(12, 636);
             this.btnForm2.Name = "btnForm2";
             this.btnForm2.Size = new System.Drawing.Size(115, 23);
             this.btnForm2.TabIndex = 34;
@@ -410,11 +414,55 @@
             this.btnForm2.UseVisualStyleBackColor = true;
             this.btnForm2.Click += new System.EventHandler(this.btnForm2_Click);
             // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(9, 114);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(75, 23);
+            this.btn1.TabIndex = 35;
+            this.btn1.Text = "버튼1";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(109, 114);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(75, 23);
+            this.btn2.TabIndex = 36;
+            this.btn2.Text = "버튼2";
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            // 
+            // btn3
+            // 
+            this.btn3.Location = new System.Drawing.Point(213, 114);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(75, 23);
+            this.btn3.TabIndex = 37;
+            this.btn3.Text = "버튼3";
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
+            // btn4
+            // 
+            this.btn4.Location = new System.Drawing.Point(317, 114);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(75, 23);
+            this.btn4.TabIndex = 38;
+            this.btn4.Text = "버튼4";
+            this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 637);
+            this.ClientSize = new System.Drawing.Size(577, 683);
+            this.Controls.Add(this.btn4);
+            this.Controls.Add(this.btn3);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn1);
             this.Controls.Add(this.btnForm2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -488,5 +536,9 @@
         private GroupBox groupBox1;
         private GroupBox groupBox2;
         private Button btnForm2;
+        private Button btn1;
+        private Button btn2;
+        private Button btn3;
+        private Button btn4;
     }
 }
