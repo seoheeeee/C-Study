@@ -61,18 +61,20 @@ namespace Test._4
     }
     internal class _4_10
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
-            Human worker = new Worker("김유신");
-            Human developer = new Developer("김춘추");
-            Human professor = new Professor("장보고");
+            Worker worker = new Worker("김유신");
+            Developer developer = new Developer("김춘추");
+            Professor professor = new Professor("장보고");
 
-            worker.Show();
-            Console.WriteLine();
-            developer.Show();
-            Console.WriteLine();
-            professor.Show();
-            Console.WriteLine();
+            Human[] people = {worker, developer, professor};
+
+            foreach(Human human in people)
+            {
+                human.Show();
+                Console.WriteLine();
+            }
+
         }
     }
 }

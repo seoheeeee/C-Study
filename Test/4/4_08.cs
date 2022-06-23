@@ -31,6 +31,8 @@ namespace Test._4
     {
         static void Main1(string[] args)
         {
+            
+
             Apple apple = new Apple();
             Banana banana = new Banana();
             Grape grape = new Grape();
