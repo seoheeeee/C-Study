@@ -8,7 +8,7 @@ namespace Test._8
 {
     internal class _8_03
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("{0,5} {1,8} {2,3} {3,4}", "10진수","2진수","8진수","16진수");
 
