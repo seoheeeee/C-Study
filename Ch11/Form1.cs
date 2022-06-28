@@ -99,5 +99,10 @@ namespace Ch11
         {
             MessageBox.Show("여러버튼이 있는 메시지 박스","메시지 박스4!><",MessageBoxButtons.OKCancel,MessageBoxIcon.Information);
         }
+
+        private void btnForm3_Click(object sender, EventArgs e)
+        {
+            new Form3().ShowDialog();
+        }
     }
 }
