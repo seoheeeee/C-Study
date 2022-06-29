@@ -8,7 +8,7 @@ namespace Test._8
 {
     internal class _8_10
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             for(int y = 1; y <= 9; y++)
             {
