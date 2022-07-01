@@ -68,10 +68,10 @@
 ## Project2. 데이터 매니저
 ![Project2](./Project2/데이터매니저.png)
 
-##Project3. 오목게임
+## Project3. 오목게임
 ![Project3](./Project3/오목게임.png)
 
-##Project4. 벽돌깨기
+## Project4. 벽돌깨기
 ![Project4](./Project4/벽돌깨기.png)
 
 
