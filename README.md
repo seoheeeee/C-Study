@@ -63,7 +63,7 @@
 ***
 	
 ## Project1. 계산기
-	![Project1](./Project1/계산기.png)
+![Project1](./Project1/계산기.png)
 
 
 
